@@ -592,7 +592,6 @@ h1, h2 {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
     cursor: pointer;
 
@@ -620,6 +619,7 @@ h1, h2 {
     fill: #f4f4fd;
 }
 .modal-submit {
+    display: block;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
     background-color: #4d5ae5;
@@ -632,7 +632,6 @@ h1, h2 {
     min-width: 169px;
     min-height: 56px;
     padding: 16px 32px;
-    display: block;
     margin: 0 auto;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
