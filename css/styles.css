@@ -610,17 +610,3 @@ h1, h2 {
     margin-right: 8px;
     transition: background-color 0.3s, border-color 0.3s;
 }
-.modal-checkbox-icon {
-    display: none;
-    fill: white;
-}
-  .modal-checkbox-input {
-    display: none;
-}
-.modal-checkbox-input:checked + .modal-checkbox {
-    background-color: #4b4fc4;
-    border-color: #4b4fc4;
-}
-.modal-checkbox-input:checked + .modal-checkbox .modal-checkbox-icon {
-    display: block;
-  }
