@@ -603,7 +603,7 @@ h1, h2 {
     color: #4d5ae5;
 }
 .modal-checkbox {
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 16px;
