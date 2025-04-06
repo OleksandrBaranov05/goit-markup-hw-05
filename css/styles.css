@@ -603,17 +603,16 @@ h1, h2 {
     color: #4d5ae5;
 }
 .modal-checkbox {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .modal-check:checked + .modal-check-text span {
     background-color: #404bbf;
